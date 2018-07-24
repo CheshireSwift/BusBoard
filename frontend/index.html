@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Departure boards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="departures.js"></script>
+  </head>
+
+  <body>
+       
+    <div class=header>
+      <h1>BUS BOARD</h1>
+    </div>
+
+    <div class=nav>
+      <ul>
+        <li><a  href="./index.html">Home</a></li>
+        <li><a href="./history.html">Info</a></li>
+      </ul>
+    </div>
+
+    <div class= text>
+      <form action='javascript:void(0)' onsubmit="doFormSubmit()">
+          Postcode:<br>
+          <input id='postcodeField' type="text" name="postcode">
+          <input type="submit" value="Submit">
+      </form>
+
+      <div id="results">
+          
+      </div>
+    </div>
+  </body>
+</html>
